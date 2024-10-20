@@ -2930,11 +2930,14 @@ time {
     position: fixed;
     z-index: 500;
     width: 100%;
-    padding: 0 45px
+    height: 10%;
+    padding: 0 45px;
 }
 
 .top-header.after-scroll {
+    display: block;
     padding-top: 0;
+    background: #0d3a27;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.15)
 }
 
@@ -3031,7 +3034,8 @@ nav li a.current, nav li a:hover {
 }
 
 .top-header.after-scroll nav li a {
-    color: rgba(0, 0, 0, 0.5)
+    /*color: rgba(0, 0, 0, 0.5)*/
+    color: white;
 }
 
 .top-header.after-scroll nav li a.current, .top-header.after-scroll nav li a:hover {
