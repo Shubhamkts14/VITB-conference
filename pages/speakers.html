@@ -56,7 +56,7 @@
                     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
                         <use xlink:href="/z#logo.png"></use>
                     </svg>
-                    <a href="../index.html" id="logo-header" class="logo-header"> <img src="logo.png" width="100px" height="400px" alt="Logo" class="logo"> </a>
+                    <a href="../index.html" id="logo-header" class="logo-header"> <img src="../assets/logo.png" width="100px" height="400px" alt="Logo" class="logo"> </a>
                     <nav class="st-menu st-effect" id="menu">
                         <div class="logo-navbar logo logo-dark visible-xs"></div>
                         <ul>
@@ -79,7 +79,7 @@
                             <li> <a href="" target="_blank">Register Now</a> </li>
                         </ul>
                     </nav>
-                    <a href="/" id="logo-header" class="logo-header"> <img src="logo2.png" width="100px" height="400px" alt="Logo" class="logo"> </a> <a href="/" id="logo-header" class="logo-header" style="right:20px; position:absolute; top:0px; "> <img src="logo3.png" alt="Logo" class="logo" style="margin:auto;  top:0px; position:absolute; right:20px;"> </a>
+                    <a href="/" id="logo-header" class="logo-header"> <img src="../assets/logo2.png" width="100px" height="400px" alt="Logo" class="logo"> </a> <a href="/" id="logo-header" class="logo-header" style="right:20px; position:absolute; top:0px; "> <img src="../assets/logo3.png" alt="Logo" class="logo" style="margin:auto;  top:0px; position:absolute; right:20px;"> </a>
                 </header>
                 <script> document.addEventListener('DOMContentLoaded', function() { document.querySelectorAll('.dropdown').forEach(function(dropdown) { const dropdownLink = dropdown.querySelector('.dropdown-toggle'); const dropdownMenu = dropdown.querySelector('.dropdown-menu'); if (dropdownLink && dropdownMenu) { dropdownLink.addEventListener('mouseover', function() { dropdownMenu.style.display = 'block'; requestAnimationFrame(() => { dropdownMenu.style.opacity = '1'; dropdownMenu.style.transform = 'translateY(0)'; }); }); dropdown.addEventListener('mouseleave', function() { dropdownMenu.style.opacity = '0'; dropdownMenu.style.transform = 'translateY(-10px)'; dropdownMenu.addEventListener('transitionend', function() { if (dropdownMenu.style.opacity === '0') { dropdownMenu.style.display = 'none'; } }, { once: true }); }); } }); }); </script>
                 <style>/* Style for the active/current link */ /* Style for the active/current link */ .nav-link.current { color: white; /* Set the active "Home" link color to grey */ } /* General style for navigation links */ .nav-link { color: white; /* Non-active link color */ text-decoration: none; padding: 10px; display: inline-block; } /* Hover effect to change link color to white */ .nav-link:hover { color: grey; } /* Dropdown menu links */ .dropdown-menu a { color: white; /* Set dropdown link color */ } .dropdown-menu a:hover { background-color: #0056b3; /* Hover effect for dropdown links */ color: white; /* Change dropdown link color on hover */ } /* Style for submenu items */ .dropdown-menu { background-color: #439ea2; /* Background for dropdown */ } /* Animation for dropdown */ .dropdown-menu { transition: opacity 0.5s ease, transform 0.3s ease; } /* Style for hover and active states */ .nav-link:hover, .nav-link.current:hover { color: grey; /* Ensures hover state color is white */ } </style>
@@ -98,7 +98,7 @@
                         <!-- Speaker 1 -->
                         <div class="col-md-4 speaker-container">
                             <div class="speaker-box speaker-1">
-                                <figure class="speaker-image" style="background-image: url('/speaker1.jpeg');"></figure>
+                                <figure class="speaker-image" style="background-image: url('../assets/speaker1.jpeg');"></figure>
                                 <div class="speaker-info">
                                     <h2 class="speaker-name">Prof. K M Pandey</h2>
                                     <p class="speaker-designation">Banaras Hindu University <br>(BHU) Varanasi</p>
@@ -108,7 +108,7 @@
                         <!-- Speaker 2 -->
                         <div class="col-md-4 speaker-container">
                             <div class="speaker-box speaker-2">
-                                <figure class="speaker-image" style="background-image: url('/narula.jpeg');"></figure>
+                                <figure class="speaker-image" style="background-image: url('../assets/narula.jpeg');"></figure>
                                 <div class="speaker-info">
                                     <h2 class="speaker-name">Prof. Sumit Narula</h2>
                                     <p class="speaker-designation">Director, Amity School of Communication<br> EIC: Journal of Content Community and Communication (SCOPUS Indexed)<br> Deputy Head: Amity Television<br> Chairman: Amity Center of Excellence for Detection of Fake News & Disinformation<br> Brand Ambassador : Emerald Publishing: South Asia</p>
@@ -118,7 +118,7 @@
                         <!-- Speaker 3 -->
                         <div class="col-md-4 speaker-container">
                             <div class="speaker-box speaker-3">
-                                <figure class="speaker-image" style="background-image: url('/speaker3.jpeg');"></figure>
+                                <figure class="speaker-image" style="background-image: url('../assets/speaker3.jpeg');"></figure>
                                 <div class="speaker-info">
                                     <h2 class="speaker-name">Prof. Amitabh Deo Kodwani</h2>
                                     <p class="speaker-designation">Indian Institute of Management<br> IIM Indore</p>
